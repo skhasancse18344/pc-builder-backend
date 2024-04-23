@@ -22,8 +22,25 @@ const getSingleUser = async (id: string): Promise<Users | null> => {
   });
   return user;
 };
+const updateUser = (id: string, data: Users): Promise<Users | null> => {
+  return prisma.users.update({
+    where: {
+      id,
+    },
+    data,
+  });
+};
+const deleteUser = (id: string): Promise<Users | null> => {
+  return prisma.users.delete({
+    where: {
+      id,
+    },
+  });
+};
 export const UserService = {
   createUser,
   getAllUsers,
   getSingleUser,
+  updateUser,
+  deleteUser,
 };
