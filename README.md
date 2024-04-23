@@ -12,7 +12,7 @@ This guide will walk you through the process of setting up the PC Builder projec
 2. `Navigate into the project directory:` Use the cd command to navigate into the project directory:
 
 ```bash
-cd university-management-core-service
+cd pc-builder-backend
 ```
 
 3. `Install project dependencies:` Next, install the project dependencies by running the following command:
