@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "G:\\PHL-2\\Prisma\\pc-builder\\logs\\winston\\successes\\.7271aab5898a3da27577013b2887ab96613349c4-audit.json",
+    "files": [
+        {
+            "date": 1713854572073,
+            "name": "G:\\PHL-2\\Prisma\\pc-builder\\logs\\winston\\successes\\phu-2024-23-04-12-success.log",
+            "hash": "ca1b11290eb23b1b5610ed80a71b890a6d75e294514bd8d8ee65e5a1c482d41e"
+        }
+    ],
+    "hashType": "sha256"
+}
