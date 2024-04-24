@@ -7,6 +7,7 @@ const createComponent = async (data: Components): Promise<Components> => {
     data,
     include: {
       categories: true,
+      reviews: true,
     },
   });
   return result;
@@ -16,6 +17,7 @@ const getComponents = async (): Promise<Components[]> => {
   const result = await prisma.components.findMany({
     include: {
       categories: true,
+      reviews: true,
     },
   });
   return result;
@@ -27,6 +29,7 @@ const getComponentById = async (id: string): Promise<Components | null> => {
     },
     include: {
       categories: true,
+      reviews: true,
     },
   });
   return result;
